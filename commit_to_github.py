@@ -239,7 +239,7 @@ run_command(["git", "remote", "-v"])
 print("\nPushing project to GitHub...")
 
 push_result = run_command(
-    ["git", "push", "-u", "origin", "main", "--force"],
+    ["git", "push", "-u", "origin", "main"],
     allow_error=True
 )
 
